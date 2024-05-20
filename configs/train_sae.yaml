@@ -1,0 +1,13 @@
+defaults:
+  - hydra: sae
+  - wandb: sae
+  - _self_
+  - training: sae/default
+  - model: keynet
+  - dataset: panda-push-custom
+
+training: ???
+model: ???
+dataset: ???
+
+gpu: True

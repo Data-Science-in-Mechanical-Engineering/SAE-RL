@@ -1,0 +1,21 @@
+# @package _global_
+defaults:
+  - override /algorithm: sac
+  - override /environment: panda-push-custom
+  - override /environment/camera: panda-close
+
+experiment: rl-feat
+
+training:
+  steps: 3000000
+  observation:
+    measurable: True
+    immeasurable: False
+    keypoints: False
+    feature_points: True
+  sae_checkpoint: ???
+  sae_name: ???
+  sae_experiment: ???
+environment:
+  camera:
+    renderer: Tiny

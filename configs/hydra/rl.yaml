@@ -1,0 +1,7 @@
+defaults:
+  - rerun
+
+job:
+  id: 0
+run:
+  dir: logs/rl/${environment.id}/${now:%Y-%m-%d--%H-%M-%S}--${hydra.job.id}/

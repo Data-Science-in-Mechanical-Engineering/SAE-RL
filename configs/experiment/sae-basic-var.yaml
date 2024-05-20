@@ -1,0 +1,15 @@
+# @package _global_
+defaults:
+  - override /model: basic
+  - override /dataset: panda-push-custom
+
+experiment: sae-basic-var
+
+training:
+  epochs: 500
+  loss_weights:
+    velocity: 0.0
+model:
+  decoder:
+    settings:
+      train_gaussian_std: True

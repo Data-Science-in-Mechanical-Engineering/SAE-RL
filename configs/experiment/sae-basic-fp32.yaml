@@ -1,0 +1,15 @@
+# @package _global_
+defaults:
+  - override /model: basic
+  - override /dataset: panda-push-custom
+
+experiment: sae-basic-fp32
+
+training:
+  epochs: 500
+  loss_weights:
+    velocity: 0.0
+model:
+  encoder:
+    settings:
+      n_coordinates: 32

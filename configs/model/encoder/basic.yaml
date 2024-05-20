@@ -1,0 +1,12 @@
+defaults:
+  - base
+
+id: basic
+class_name: EncoderBasic
+settings:
+  n_coordinates: 16
+  out_channels: [32, 64, 128]
+  kernel_sizes: [3, 3, 3]
+  batch_norm: True
+  softmax_temperature: 1.0
+  train_softmax_temperature: False

@@ -1,0 +1,14 @@
+defaults:
+  - hydra: rl
+  - wandb: rl
+  - _self_
+  - training: rl/default
+  - algorithm: sac
+  - environment: panda-push-custom
+
+training: ???
+algorithm: ???
+environment: ???
+
+display: False
+gpu: True

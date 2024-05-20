@@ -1,0 +1,12 @@
+epochs: 500
+batch_size: 32
+learning_rate: 0.001
+loss_weights:
+  reconstruction: 1.0
+  velocity: 0.1
+noise_std: 0.001
+contrast_norm_std: null
+bg_segmentation_threshold: null
+bg_segmentation_output: 'masked-image'  # 'masked-image', 'segmentation' or 'difference'
+evaluation:
+  frequency: 1

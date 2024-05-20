@@ -1,0 +1,14 @@
+defaults:
+  - base
+
+id: basic
+class_name: DecoderBasic
+settings:
+  gaussian_std: 0.1
+  train_gaussian_std: False
+  share_gaussian_std: True
+  limit_gaussian_std: null
+  out_channels: [64, 32, 16]
+  kernel_sizes: [3, 3, 3]
+  batch_norm: True
+  background_bias: False

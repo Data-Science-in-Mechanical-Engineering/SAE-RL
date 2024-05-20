@@ -1,0 +1,10 @@
+defaults:
+  - panda-base
+
+id: PandaPush-v3
+keypoints:
+  objects:
+    - object
+    - target
+  links: [4, 5, 11]
+time_limit: 100

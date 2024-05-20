@@ -1,0 +1,14 @@
+# publication: Finn et al. 2016
+defaults:
+  - base
+
+id: dsae
+class_name: EncoderDSAE
+settings:
+  n_coordinates: 16
+  out_channels: [64, 32]
+  kernel_sizes: [7, 5, 5]
+  batch_norm: True
+  softmax_temperature: 1.0
+  train_softmax_temperature: True
+  imagenet_weights: True

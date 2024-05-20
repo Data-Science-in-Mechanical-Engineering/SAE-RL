@@ -1,0 +1,10 @@
+defaults:
+  - _self_
+  - env: panda-push-custom
+  - train: rl-base
+
+env: ???
+train: ???
+model_checkpoint: ???
+display: False
+gpu: True

@@ -1,0 +1,8 @@
+defaults:
+  - camera: panda-close
+
+id: ???
+keypoints: ???
+time_limit: ???
+camera: ???
+collection: panda-gym

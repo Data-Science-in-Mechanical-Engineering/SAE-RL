@@ -1,0 +1,4 @@
+defaults:
+  - base
+  - encoder: basic
+  - decoder: basic

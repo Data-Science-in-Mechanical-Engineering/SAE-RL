@@ -1,0 +1,7 @@
+defaults:
+  - base
+
+id: panda_push_custom
+file: PandaPush-custom_fast.hdf5
+target_shape: [3, 64, 64]
+split: [500, 250, 250]

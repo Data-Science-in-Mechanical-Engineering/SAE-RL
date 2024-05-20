@@ -1,0 +1,4 @@
+defaults:
+  - base
+  - encoder: keynet
+  - decoder: keynet

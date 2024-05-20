@@ -1,0 +1,3 @@
+# don't create an output directory
+run:
+  dir: /tmp/hydra-${now:%Y-%m-%d--%H-%M-%S}/

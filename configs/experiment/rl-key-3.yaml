@@ -1,0 +1,20 @@
+# @package _global_
+defaults:
+  - override /algorithm: sac
+  - override /environment: panda-push-custom
+  - override /environment/camera: panda-close
+
+experiment: rl-key-3
+
+training:
+  steps: 3000000
+  observation:
+    measurable: True
+    immeasurable: False
+    keypoints: True
+    feature_points: False
+environment:
+  camera:
+    renderer: Tiny
+  keypoints:
+    links: [11]

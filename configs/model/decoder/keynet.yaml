@@ -1,0 +1,15 @@
+# publication: Jakab and Gupta et al. 2018\
+defaults:
+  - base
+
+id: keynet
+class_name: DecoderKeyNet
+settings:
+  gaussian_std: 0.1
+  train_gaussian_std: False
+  share_gaussian_std: True
+  limit_gaussian_std: null
+  n_filters: 256
+  kernel_size: 3
+  batch_norm: True
+  background_bias: False

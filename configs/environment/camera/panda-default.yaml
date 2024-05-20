@@ -1,0 +1,10 @@
+id: default
+renderer: OpenGL
+height: 256
+width: 256
+antialias_factor: 2
+target_position: [0, 0, 0]
+distance: 1.4
+yaw: 45
+pitch: -30
+roll: 0

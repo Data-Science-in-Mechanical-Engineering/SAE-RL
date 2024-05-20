@@ -1,0 +1,13 @@
+# publication: Jakab and Gupta et al. 2018
+defaults:
+  - base
+
+id: keynet
+class_name: EncoderKeyNet
+settings:
+  n_coordinates: 30
+  n_filters: 32
+  kernel_sizes: [7, 3]
+  batch_norm: True
+  softmax_temperature: 1.0
+  train_softmax_temperature: False

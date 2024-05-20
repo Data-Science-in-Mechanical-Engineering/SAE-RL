@@ -1,0 +1,5 @@
+defaults:
+  - panda-default
+
+renderer: Tiny
+antialias_factor: 1

@@ -1,0 +1,16 @@
+# @package _global_
+defaults:
+  - override /model: keynet
+  - override /dataset: panda-push-custom
+
+experiment: sae-keynet-vel-var-bg
+
+training:
+  epochs: 500
+  loss_weights:
+    velocity: 0.1
+model:
+  decoder:
+    settings:
+      train_gaussian_std: True
+      background_bias: True

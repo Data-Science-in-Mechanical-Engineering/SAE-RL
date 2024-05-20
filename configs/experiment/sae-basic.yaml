@@ -1,0 +1,11 @@
+# @package _global_
+defaults:
+  - override /model: basic
+  - override /dataset: panda-push-custom
+
+experiment: sae-basic
+
+training:
+  epochs: 500
+  loss_weights:
+    velocity: 0.0

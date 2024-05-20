@@ -1,0 +1,13 @@
+steps: 1000000
+n_environments: 10
+observation:
+  measurable: True
+  immeasurable: True
+  keypoints: False
+  feature_points: False
+  stack_frames: null
+sae_checkpoint: null
+evaluation:
+  frequency: 10000
+  n_environments: 2
+  n_episodes: 5

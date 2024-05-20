@@ -1,0 +1,11 @@
+# @package _global_
+defaults:
+  - override /model: keynet
+  - override /dataset: panda-push-custom
+
+experiment: sae-keynet-vel
+
+training:
+  epochs: 500
+  loss_weights:
+    velocity: 0.1

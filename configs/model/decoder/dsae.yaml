@@ -1,0 +1,8 @@
+# publication: Finn et al. 2016
+defaults:
+  - base
+
+id: dsae
+class_name: DecoderDSAE
+settings:
+  background_bias: False

@@ -1,0 +1,23 @@
+defaults:
+  - hydra: hush
+  - _self_
+  - environment: panda-push-custom
+
+environment: ???
+recording:
+  seed: 0
+  episode_time_limit: 20
+  n_sequences: 1000
+  n_frames: 10
+  action_std: 1.0
+save:
+  replace: False
+  tag: _labelled
+  file: "data/${environment.id}${save.tag}.hdf5"  # relative to repository root
+  format:
+    integer: False
+    channels_first: False
+    y_first: False
+
+display: False
+gpu: True
